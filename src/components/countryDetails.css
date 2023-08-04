@@ -1,0 +1,39 @@
+body {
+  color: #fff;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.country-details {
+  margin-top: 0%;
+}
+
+.darker {
+  background-color: #cf4378;
+}
+
+.world-icon {
+  width: 30%;
+  height: 10%;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.stats {
+  text-align: left;
+  margin-bottom: 0%;
+  background-color: #853352;
+}
+
+.logo-flag {
+  width: 10%;
+  height: 10%;
+}

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country component should match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <p
+      class="search"
+    >
+      <input
+        placeholder="Search events"
+        type="text"
+        value=""
+      />
+    </p>
+    <div
+      class="country-container"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CountryDetails component should match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    ...
+  </div>
+</DocumentFragment>
+`;

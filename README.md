@@ -1,10 +1,110 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  <h1><b>Countries Metrics - A React Single-Page Application</b></h1>
 
-In the project directory, you can run:
+</div>
+
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Countries Explorer\] ](#-countries-explorer-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [📹 The Video ](#-the-video-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [`npm start`](#npm-start)
+    - [`npm test`](#npm-test)
+    - [`npm run build`](#npm-run-build)
+    - [`npm run eject`](#npm-run-eject)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
+# 📖 [Countries Explorer] <a name="about-project"></a>
+
+**"Countries Explorer"** is a single-page application built with React. It fetches the data from the https://restcountries.com/ API and shows all the countries of the world. The homepage displays the country name, flag, and population for each country. When a user clicks on a country's card, they are taken to a detail page that shows more information about that country, such as its capital city, the Coat of arms of the country, and language
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="#">React</a></li>
+    <li><a href="#">Redux</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- Browse all the countries of the world with their respective names, flags, and populations on the homepage.
+- Click on a country's card to access a detailed page with additional information about that country.
+- Detailed page displays information such as the capital city, currency, and language of the selected country.
+- Users can filter the countries by searching for the country and sort the data depneding of the number of population.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://preeminent-hummingbird-ae0e7c.netlify.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📹 The Video <a name="live-demo"></a>
+
+- [watch the video](coming soon)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+- Open your Terminal
+- Navigate to the desired directory to which you want to clone the repository to
+- [Copy & Paste] git clone https://github.com/tjay1760/Country-Metrics.git
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Basic understanding of Github
+- Basic understanding of run project by npm
+- Your machine should have Chrome or any of your favorite browsers and VSCode installed
+
+### Setup
+
+Clone this repository to your desired folder:
+
+- git clone https://github.com/tjay1760/Country-Metrics.git
+
+### Install
+
+Install this project with:
+
+```sh
+npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
 
 ### `npm start`
 
@@ -39,32 +139,76 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Run tests
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run tests, run the following command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+npm test
+```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Deployed using [Netlify](https://www.netlify.com/)
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **John Murianki**
+
+- GitHub: [@tjay1760](https://github.com/tjay1760)
+- LinkedIn: [John Murianki](https://www.linkedin.com/in/john-murianki-thiongo/)
+- Twitter: [@TjayPod](https://www.linkedin.com/in/john-murianki-thiongo/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **Add a currency converter tool that allows users to convert the currency of the selected country to their preferred currency.**
+- **Language Translation: Implement a feature that translates country information into different languages.**
+- **Weather Information: Integrate weather data to display the current weather conditions or forecasts for the selected country's capital city.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/tjay1760/country-explorer-capstone/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give it a ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance.
+- I extend my gratitude to the creators and maintainers of the [restcountries.com](https://restcountries.com) API for providing the data that powers our application.
+- This application was developed as a project for Microverse, inspired by a passion for exploring countries.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<a name="readme-top"></a>

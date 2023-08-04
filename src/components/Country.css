@@ -1,4 +1,8 @@
-/* stylelint-disable indentation */
+
+body {
+  background-color: #fc4f92;
+}
+
 .country-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -9,12 +13,11 @@
 .country-box {
   width: 100%;
   height: 100%;
-  margin: 0%;
 }
 
-  .even {
-    background-color: rgb(225, 236, 209);
-  }
+.even {
+  background-color: #cf4378;
+}
 
 .flag {
   width: 70%;
@@ -23,10 +26,17 @@
 .search {
   position: absolute;
   width: fit-content;
-  margin-top: 5%;
+  margin: 3%;
   top: 8%;
+  border-radius: 10px;
+  height: 20%;
 }
 
 .country-name {
   text-decoration: none;
+  color: #fff;
+}
+
+.population {
+  color: #fff;
 }

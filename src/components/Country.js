@@ -35,14 +35,18 @@ const Country = () => {
 
   return (
     <div>
-      <p className="search">
-        <input
-          type="text"
-          placeholder="Search events"
-          value={searchQuery}
-          onChange={handleSearchInputChange}
-        />
-      </p>
+      <div className="search-container">
+        <p className="search">
+          <input
+            className="search"
+            type="text"
+            placeholder="Search events"
+            value={searchQuery}
+            onChange={handleSearchInputChange}
+          />
+        </p>
+      </div>
+
       <div className="country-container">
         {filteredCountries.map((country, index) => {
           let boxClass = '';

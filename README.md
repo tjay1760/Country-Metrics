@@ -70,7 +70,7 @@
 
 ## 📹 The Video <a name="live-demo"></a>
 
-- [watch the video](https://www.loom.com/share/bb67638422b34801baf4b03a60dd027b?sid=fe47ecad-ff80-47ab-8768-a65bce1820b0)
+- [watch the video](https://www.loom.com/share/d29e5ad6ceaf43078893f02b8b4e7416?sid=70a91a16-7d0c-4a45-b738-f6ff5c63a657)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

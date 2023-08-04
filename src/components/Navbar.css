@@ -7,9 +7,10 @@
   align-items: center;
   height: 10%;
   z-index: 999;
-  background-color: gray;
+  background-color: #cf4378;
   font-weight: 700;
   font-size: 35px;
+  color: #fff;
 }
 
 .nav-link {

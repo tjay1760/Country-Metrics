@@ -1,0 +1,12 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.country-details {
+  margin-top: 4%;
+}
+
+.darker {
+  background-color: rgb(225, 236, 209);
+}

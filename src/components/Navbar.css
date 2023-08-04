@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  height: 10%;
+  z-index: 999;
+  background-color: gray;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.nav-link {
+  text-decoration: none;
+}

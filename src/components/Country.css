@@ -1,0 +1,24 @@
+/* stylelint-disable indentation */
+.country-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.country-box {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+}
+
+  .even {
+    background-color: rgb(225, 236, 209);
+  }
+
+.flag {
+  width: 70%;
+}
+
+.search {
+  width: fit-content;
+  margin-top: 5%;
+}

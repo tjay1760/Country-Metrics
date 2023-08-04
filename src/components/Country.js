@@ -55,9 +55,9 @@ const Country = () => {
             boxClass = 'even';
           }
           return (
-            <Link to={`/country/${encodeURIComponent(country.name)}`} key={country.name}>
+            <Link to={`/country/${encodeURIComponent(country.name)}`} key={country.name} style={{ textDecoration: 'none' }}>
               <div className={`country-box ${boxClass}`} key={country.name}>
-                <div className="country-name">{country.name}</div>
+                <h2 className="country-name">{country.name}</h2>
                 <img
                   className="flag"
                   src={country.flag}

@@ -2,6 +2,8 @@
 .country-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  top: 25%;
+  position: absolute;
 }
 
 .country-box {
@@ -19,6 +21,12 @@
 }
 
 .search {
+  position: absolute;
   width: fit-content;
   margin-top: 5%;
+  top: 8%;
+}
+
+.country-name {
+  text-decoration: none;
 }
